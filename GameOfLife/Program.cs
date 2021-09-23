@@ -14,7 +14,7 @@ namespace GameOfLife
             double probability = 0.5;
             List<List<int>> currentPopulation = new List<List<int>>();
             Console.WriteLine("Welcome to Game of Life!!!\nThis game is the evolution of Triells for Guenstiger.de");
-            Console.WriteLine("If you want to skip forward evolution by X steps please press f.\nIf you want to save the game please press s.\nIf you want to load a world please press l.\nThe following grids are available by default:\nbee, space, pulsar, penta");
+            Console.WriteLine("If you want to skip forward evolution by X steps please press f.\nIf you want to save the game please press s.\nIf you want to load a world please press l.\nThe following grids are available by default:\nbee, space, pulsar, penta\nPress q to quit the game.");
             Console.WriteLine("Please enter the grid width:");
             width = Convert.ToInt32(Console.ReadLine());
             // ich weiß dies und alle anderen user eingaben gehören in einen try catch block um falsche eingaben abzufangen, aber für alle eingaben, das jetzt noch zu machen bleibt keine zeit...
